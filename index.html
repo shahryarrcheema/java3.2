@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <form class="calculatorform" name="cal" id="card">
+        <div class="screen" id="card1">
+            <input type="text" name="answer" id="car">
+        </div>
+
+        <div class="btn">
+            <input type="reset" class="Clearbtn" name="C" value="C" id="box">
+            <input type="button" class="numbers" name="div" value="/" onclick="cal.answer.value += '/'" id="box1">
+            <input type="button" class="numbers" name="mul" value="*" onclick="cal.answer.value += '*'" id="box2">
+        </div>
+
+        <div class="btn">
+            <input type="button" class="numbers" name="num7" value="7" onclick="cal.answer.value += '7'" id="box3">
+            <input type="button" class="numbers" name="num8" value="8" onclick="cal.answer.value += '8'" id="box4">
+            <input type="button" class="numbers" name="num9" value="9" onclick="cal.answer.value += '9'" id="box5">
+            <input type="button" class="numbers" name="sub" value="-" onclick="cal.answer.value += '-'" id="box9">
+
+        </div>
+        <div class="btn">
+            <input type="button" class="numbers" name="num4" value="4" onclick="cal.answer.value += '4'" id="box6">
+            <input type="button" class="numbers" name="num5" value="5" onclick="cal.answer.value += '5'" id="box7">
+            <input type="button" class="numbers" name="num6" value="6" onclick="cal.answer.value += '6'" id="box8">
+        
+        </div>
+        <div class="btn">
+            <input type="button" class="numbers" name="num1" value="1" onclick="cal.answer.value += '1'" id="box10">
+            <input type="button" class="numbers" name="num2" value="2" onclick="cal.answer.value += '2'" id="box11">
+            <input type="button" class="numbers" name="num3" value="3" onclick="cal.answer.value += '3'" id="box12">
+            <input type="button" class="numbers" name="plus" value="+" onclick="cal.answer.value += '+'" id="box13">
+        </div>
+        <div class="btn">
+            <input type="button" class="numbers" name="num0" value="0" onclick="cal.answer.value += '0'" id="box14">
+            <input type="button" class="numbers" name="num00" value="00" onclick="cal.answer.value += '00'" id="box15">
+            <input type="button" class="numbers" name="num6" value="." onclick="cal.answer.value += '.'" id="box16">
+            <input type="button" class="numbers" name="equal" value="=" onclick="cal.answer.value = eval(cal.answer.value);" id="box17">
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
+
+
+</body>
+</html>
